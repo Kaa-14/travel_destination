@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Destination</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e53e49a7cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway|Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="flex-space-between">
+          <div class="flex">
+            <i class="fa-solid fa-earth-americas"></i>
+            <h3 class="title"><a href="index.html">Travel Destination</a></h3>
+          </div>
+          <nav>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About Us</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="jumbotron">
+        <div class="jumbotron">
+          <h1
+            class="jumbotron-title DancingScript"
+            id="jumbotext"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            Selamat Datang di "Travel Destination"
+          </h1>
+          <div class="header-flex">
+            <div>
+              <h3
+                class="jumbotron-text"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                Kami adalah teman setia Anda dalam menjelajahi dunia yang penuh
+                keindahan. Di sini, kami akan memandu Anda ke
+                destinasi-destinasi menakjubkan, memberikan inspirasi, dan saran
+                perjalanan yang berguna. Bersama kami, mari menjelajahi
+                keajaiban dunia dan membuat kenangan indah yang tak terlupakan.
+                Selamat menikmati perjalanan!
+              </h3>
+              <div
+                class="mini-text-flex"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                <p class="mini-text">Lihat selengkapnya disini</p>
+                <button id="icon-down" class="button-down">
+                  <a href="#Content">
+                    <i class="far fa-hand-point-down"></i>
+                  </a>
+                </button>
+              </div>
+            </div>
+            <div>
+              <section id="slider" class="section-slider">
+                <div class="image-slider">
+                  <div class="slide active">
+                    <img src="assets/slider1.jpg" alt="" />
+                  </div>
+
+                  <div class="slide">
+                    <img src="assets/slider2.jpg" alt="" />
+                  </div>
+
+                  <div class="slide">
+                    <img src="assets/slider3.jpg" alt="" />
+                  </div>
+
+                  <div class="slide">
+                    <img src="assets/slider4.jpg" alt="" />
+                  </div>
+
+                  <div class="slide">
+                    <img src="assets/slider5.jpg" alt="" />
+                  </div>
+                  <div class="navigation">
+                    <div class="slider-btn active"></div>
+                    <div class="slider-btn"></div>
+                    <div class="slider-btn"></div>
+                    <div class="slider-btn"></div>
+                    <div class="slider-btn"></div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- wave 1 -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        class="wave1"
+      >
+        <path
+          fill="#6d9bb5"
+          fill-opacity="1"
+          d="M0,192L48,181.3C96,171,192,149,288,128C384,107,480,85,576,106.7C672,128,768,192,864,218.7C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+
+      <!-- wave 2 -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        class="wave2"
+      >
+        <path
+          fill="#ccccff"
+          fill-opacity="1"
+          d="M0,192L48,181.3C96,171,192,149,288,128C384,107,480,85,576,106.7C672,128,768,192,864,218.7C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+
+      <div class="motto" id="motto">
+        <h2 class="motto-txt DancingScript">"Menghadirkan Dunia untuk Anda"</h2>
+      </div>
+      <div class="main-content">
+        <aside data-aos="fade-up" data-aos-duration="1000">
+          <div class="profile">
+            <h3 class="DancingScript">It's Kaa</h3>
+            <div class="profile-picture"></div>
+            <div class="toggle">
+              <button class="btn" id="green">
+                <i class="fa fa-thumbs-up fa-lg"></i>
+              </button>
+              <button class="btn" id="red">
+                <i class="fa fa-thumbs-down fa-lg"></i>
+              </button>
+            </div>
+          </div>
+          <div class="search-tags-container">
+            <div class="input-tag">
+              <h3 class="aside-tittle">Search here</h3>
+              <input id="myInput" type="text" placeholder="Search..." />
+              <span class="addBtn" onclick="newElement()">Search</span>
+            </div>
+            <ul id="myUL" class="search-tags-list">
+              <li class="search-tags-item">Travel</li>
+              <li class="search-tags-item">Popular Place</li>
+            </ul>
+          </div>
+        </aside>
+        <div class="content" id="Content">
+          <article id="my-project">
+            <h3
+              class="article-title DancingScript"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              Popular Destination
+            </h3>
+            <div class="project-container">
+              <div class="project" data-aos="fade-up" data-aos-duration="1000">
+                <img
+                  src="assets/Colosseum.jpg"
+                  alt=""
+                  width="400px"
+                  height="200px"
+                />
+                <h4 class="project-title Poppins">Colossseum</h4>
+              </div>
+              <div class="project" data-aos="fade-up" data-aos-duration="1000">
+                <img
+                  src="assets/Eiffel Tower.jpg"
+                  alt=""
+                  width="400px"
+                  height="200px"
+                />
+                <h4 class="project-title Poppins">Eiffel Tower</h4>
+              </div>
+            </div>
+            <div
+              class="project-container"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <div class="project">
+                <img
+                  src="assets/Melasti.jpg"
+                  alt=""
+                  width="400px"
+                  height="200px"
+                />
+                <h4 class="project-title Poppins">Pantai Melasti</h4>
+              </div>
+              <div class="project" data-aos="fade-up" data-aos-duration="1000">
+                <img
+                  src="assets/borobudur.jpg"
+                  alt=""
+                  width="400px"
+                  height="200px"
+                />
+                <h4 class="project-title Poppins">Candi Borobudur</h4>
+              </div>
+            </div>
+            <div class="div-article">
+              <a href="gallery.html">
+                <button
+                  class="btn-article Poppins"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  Lihat Lebih Banyak
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="motto" data-aos="zoom-in" data-aos-duration="1500">
+        <h2 class="motto-txt DancingScript">
+          "Jangan Takut Untuk Menjelajahi Tempat Baru"
+        </h2>
+      </div>
+      <section id="about">
+        <div class="about" data-aos="fade-up" data-aos-duration="1000">
+          <div>
+            <h2 class="about DancingScript">About Us</h2>
+            <p class="about-txt">
+              Kami di "Travel Destination" adalah pencinta perjalanan yang
+              berbagi hasrat untuk menjelajahi dunia. Halaman "About" ini adalah
+              pintu ke dalam siapa kami, apa yang kami cintai, dan mengapa kami
+              ingin berbagi pengalaman perjalanan dengan Anda. Bersama, mari
+              kita menjelajahi dunia dan merayakan keindahannya.
+              <br />
+              <br />
+              Travel Destination
+            </p>
+            <a href="about.html">
+              <button class="btn-about Poppins">
+                Lihat Lebih Banyak Tentang Kami
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="center-footer">
+        <div class="main-footer">
+          <div class="left-footer">
+            <h3 class="info-left">
+              <b
+                ><i class="fa-solid fa-map icon-big icon-margin icon-white"></i
+                >Alamat
+              </b>
+            </h3>
+            <p class="info-left">
+              <i class="fa-solid fa-location-dot icon-margin icon-white"></i>
+              Jalan Sidakarya GG Ikan Garpu No.2A
+            </p>
+          </div>
+          <div class="right-footer">
+            <h3 class="info-right"><b>Kontak</b></h3>
+            <p class="info-right">
+              <i class="fa-solid fa-phone icon-margin icon-white"></i>
+              Telepon: +62 85399107500
+            </p>
+            <p class="info-right">
+              <i class="fa-brands fa-instagram icon-margin icon-white"></i>
+              Instagram : @TravelDestination
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer">
+          <p class="info-center">
+            <i class="fa-solid fa-copyright icon-margin icon-white"></i
+            >Copyright © 2021. Kaa. All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
